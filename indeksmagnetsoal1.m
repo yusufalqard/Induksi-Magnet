@@ -22,7 +22,7 @@ function varargout = indeksmagnetsoal1(varargin)
 
 % Edit the above text to modify the response to help indeksmagnetsoal1
 
-% Last Modified by GUIDE v2.5 02-Jun-2021 16:42:38
+% Last Modified by GUIDE v2.5 02-Jun-2021 18:31:15
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -188,4 +188,3 @@ function Keluar_Callback(hObject, eventdata, handles)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 close();
-
