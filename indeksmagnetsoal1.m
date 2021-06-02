@@ -22,7 +22,7 @@ function varargout = indeksmagnetsoal1(varargin)
 
 % Edit the above text to modify the response to help indeksmagnetsoal1
 
-% Last Modified by GUIDE v2.5 02-Jun-2021 15:31:42
+% Last Modified by GUIDE v2.5 02-Jun-2021 16:42:38
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -163,3 +163,29 @@ function edit4_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
+
+
+% --- Executes on button press in HitungNilai.
+function HitungNilai_Callback(hObject, eventdata, handles)
+% hObject    handle to HitungNilai (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --- Executes on button press in ResetNilai.
+function ResetNilai_Callback(hObject, eventdata, handles)
+% hObject    handle to ResetNilai (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+set(handles.edit1,'string',0);
+set(handles.edit2,'string',0);
+set(handles.edit3,'string',0);
+set(handles.edit4,'string',0);
+
+% --- Executes on button press in Keluar.
+function Keluar_Callback(hObject, eventdata, handles)
+% hObject    handle to Keluar (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+close();
+
