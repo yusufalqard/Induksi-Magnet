@@ -1,13 +1,13 @@
 # Induksi Magnet
 Tempat sarana pengumpulan tugas kelompok fisika listrik magnet
 
-#Nama Anggota Kelompok C - Fisika Listrik Magnet
-#Ali Kurniawan Hasman
-#Bokiseri Srikandi Mony
-#Dewi Sartika
-#Kamal Syaiful Fattah
-#Yusuf Al Qardhawi
+Nama Anggota Kelompok C - Fisika Listrik Magnet
+<ol>Ali Kurniawan Hasman</ol>
+<ol>Bokiseri Srikandi Mony</ol>
+<ol>Dewi Sartika</ol>
+<ol>Kamal Syaiful Fattah</ol>
+<ol>Yusuf Al Qardhawi</ol>
 
-#Perihal mengenai cara kerja kelompok menggunakan platform github untuk berkontribusi bersama-sama
-#Materi diuji : Pertemuan 9 - Induksi Magnet
+Perihal mengenai cara kerja kelompok menggunakan platform github untuk berkontribusi bersama-sama<br>
+Materi diuji : Pertemuan 9 - Induksi Magnet
 
