@@ -167,10 +167,13 @@ end
 
 % --- Executes on button press in HitungNilai.
 function HitungNilai_Callback(hObject, eventdata, handles)
-% hObject    handle to HitungNilai (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+R = str2double (get(handles.edit1,'string'));
+I = str2double (get(handles.edit2,'string'));
+Po = str2double (get(handles.edit3,'string'));
 
+%Mencari B
+B = ((Po*10^-7)*I)/(2*(R*10^-2));
+set(handles.edit4,'string',B);
 
 % --- Executes on button press in ResetNilai.
 function ResetNilai_Callback(hObject, eventdata, handles)
