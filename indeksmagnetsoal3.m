@@ -173,6 +173,7 @@ B = str2double (get(handles.edit3,'string'));
 Po = str2double (get(handles.edit4,'string'));
 %Menghitung N (Jumlah Lilitan)
 N = (B*10^-5)*(2*(R*10^-2))/(I*(Po*10^-7));
+
 set(handles.edit5,'string',N);
 
 % --- Executes on button press in pushbutton2.
